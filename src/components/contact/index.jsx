@@ -8,7 +8,7 @@ import LocationLogo from '../../LocationLogo.png'
 import PhoneLogo from '../../PhoneLogo.png'
 import EmailLogo from '../../EmailLogo.png'
 
-import Placeholder4 from '../../Placeholders/Placeholder4.jpg'
+import Placeholder4 from '../../Placeholders/placeholder4.webp'
 
 import '../index.css';
 

@@ -8,9 +8,9 @@ import LocationLogo from '../../LocationLogo.png'
 import PhoneLogo from '../../PhoneLogo.png'
 import EmailLogo from '../../EmailLogo.png'
 
-import Placeholder1 from '../../Placeholders/Placeholder1.jpg'
-import Placeholder2 from '../../Placeholders/Placeholder2.jpg'
-import Placeholder4 from '../../Placeholders/Placeholder4.jpg'
+import Placeholder1 from '../../Placeholders/placeholder1.webp'
+import Placeholder2 from '../../Placeholders/placeholder2.webp'
+import Placeholder4 from '../../Placeholders/placeholder4.webp'
 
 import vendors from '../../vendors.png'
 
