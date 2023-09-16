@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    margin : 0
+}
+
+a{
+ text-decoration: none;
+}
+
+.vl {
+    position: absolute;
+    margin-top: 150px;
+    border-left: 5px solid #52A244;
+}
+
+.button {
+    background-color: #52A244;
+}
+
+a.underline-hover-effect-blue {
+    text-decoration: none;
+  }
+  
+  .underline-hover-effect-blue {
+    display: inline-block;
+    padding-bottom: 0.25rem; /* defines the space between text and underline */
+    position: relative;
+  }
+  
+  .underline-hover-effect-blue::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #24407a;
+    transition: width 0.25s ease-out;
+  }
+
+  .underline-hover-effect-blue:hover::before {
+    width: 100%;
+  }
+
+a.underline-hover-effect-white {
+    text-decoration: none;
+  }
+  
+  .underline-hover-effect-white {
+    display: inline-block;
+    padding-bottom: 0.25rem; /* defines the space between text and underline */
+    position: relative;
+  }
+  
+  .underline-hover-effect-white::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.25s ease-out;
+  }
+  
+  .underline-hover-effect-white:hover::before {
+    width: 100%;
+  }
+
+/* Main */
+
+.Placeholder {
+    width: 115%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.Wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* InfoBar */
+.InfoBar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: auto;
+    height: 55px;
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1)
+}
+
+.InfoWrapper {
+    display: flex;
+    flex-direction: row
+}
+
+.SubInfoWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+}
+
+.Info{
+    margin-left: 5px;
+    color: black;
+}
+
+.InfoLogo {
+    margin-left: 20px;
+    width: 25px;
+    height: auto;
+}
+
+.BrochureButton {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: bold;
+    color: white;
+    
+    min-width: 180px;
+    height: 45px;
+    background-color: #24407a;
+}
+
+/* NavBar */
+.StickyNavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    animation: slide-in 200ms forwards;
+
+    position: sticky;
+    z-index: 20;
+    top: 0px;
+    height: 100px;
+    width: auto;
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3)
+}
+
+@keyframes slide-in {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 0;
+    } 
+}
+
+.TextAnimation1 {
+    animation: fade-slide-in 500ms forwards;
+}
+
+@keyframes fade-slide-in {
+    0% {
+        opacity: 0;    
+        transform: translate(0, 50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    
+}
+
+.TextAnimation2 {
+    animation: fade-slide-in 600ms forwards;
+}
+
+@keyframes fade-slide-in {
+    0% {
+        transform: translate(0, 50%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+    
+}
+
+.TextAnimation3 {
+    animation: fade-slide-in 700ms forwards;
+}
+
+@keyframes fade-slide-in {
+    0% {
+        opacity: 0;    
+        transform: translate(0, 50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    position: sticky;
+    z-index: 1;
+    height: 100px;
+    width: auto;
+}
+
+.Logo {
+    width: 120px;
+    height: auto;
+}
+
+.NavButtonWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: white;
+    font-weight: 600;
+}
+
+.NavButton {
+    color: white;
+}
+
+.StickyNavButton {
+    color: #24407a;
+}
+
+/* SellingPoint */
+
+.SellingPointWrapper {
+    margin-top: -70px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.SellingPoint {
+    position: relative;
+    margin-top: 50px;
+    min-width: 400px;
+}
