@@ -107,17 +107,17 @@ const Home = () => {
                 {!navVisible && 
                     <div className="StickyNavBar">
 
-                        <a href="/">
+                        <a href="/tei-comprof">
                             <img src={Logo} className='w-[80px] md:w-[100px]' alt='logo' />    
                         </a>
 
                         <div className="NavButtonWrapper">
-                            {lang? <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/">Home</a> :
-                            <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/">Beranda</a>}
-                            {lang? <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/about">About</a>:
-                            <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/about">Tentang</a>}
-                            {lang? <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/contact">Contact</a>:
-                            <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/contact">Kontak</a>}
+                            {lang? <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/tei-comprof">Home</a> :
+                            <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/tei-comprof">Beranda</a>}
+                            {lang? <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/tei-comprof/about">About</a>:
+                            <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/tei-comprof/about">Tentang</a>}
+                            {lang? <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/tei-comprof/contact">Contact</a>:
+                            <a className="StickyNavButton ml-[20px] md:ml-[50px] underline-hover-effect-blue" href="/tei-comprof/contact">Kontak</a>}
                             {lang ? <img src={enBlue} onClick={() => langSwitch(!lang)} className='w-[30px] md:w-[40px] ml-[20px] md:ml-[50px] cursor-pointer'/> :
                             <img src={idBlue} onClick={() => langSwitch(!lang)} className='w-[30px] md:w-[40px] ml-[20px] md:ml-[50px] cursor-pointer'/>}
                         </div>
@@ -157,16 +157,16 @@ const Home = () => {
 
                 {navVisible && 
                     <div className="NavBar top-0 md:top-[55px]">
-                        <a href="/">
+                        <a href="/tei-comprof">
                             <img src={LogoWhite} className='w-[80px] md:w-[100px]' />    
                         </a>
                         <div className="NavButtonWrapper">
-                            {lang? <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/">Home</a>:
-                            <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/">Beranda</a>}
-                            {lang? <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/about">About</a>:
-                            <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/about">Tentang</a>}
-                            {lang? <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/contact">Contact</a>:
-                            <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/contact">Kontak</a>}
+                            {lang? <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/tei-comprof">Home</a>:
+                            <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/tei-comprof">Beranda</a>}
+                            {lang? <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/tei-comprof/about">About</a>:
+                            <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/tei-comprof/about">Tentang</a>}
+                            {lang? <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/tei-comprof/contact">Contact</a>:
+                            <a className="NavButton ml-[20px] md:ml-[50px] underline-hover-effect-white" href="/tei-comprof/contact">Kontak</a>}
                             {lang ? <img src={enWhite} onClick={() => langSwitch(!lang)} className='w-[30px] md:w-[40px] ml-[20px] md:ml-[50px] cursor-pointer'/> :
                             <img src={idWhite} onClick={()=> langSwitch(!lang)} className='w-[30px] md:w-[40px] ml-[20px] md:ml-[50px] cursor-pointer'/>}
                         </div>
@@ -183,9 +183,9 @@ const Home = () => {
                     {lang? <p className='text-left text-7xl font-semibold'>Ignited by Passion, Crafted with Ingenuity</p>:
                     <p className='text-left text-7xl font-semibold'>Dipicu oleh Semangat, Dibentuk oleh Kreativitas</p>}
                     <br></br>
-                    {lang? <button onClick={() => window.location = "/contact"} 
+                    {lang? <button onClick={() => window.location = "/tei-comprof/contact"} 
                     className='button text-center text-md font-semibold px-15 py-3 rounded-md w-[60%] md:w-[30%]'>Request a Consultation</button>:
-                    <button onClick={() => window.location = "/contact"} 
+                    <button onClick={() => window.location = "/tei-comprof/contact"} 
                     className='button text-center text-md font-semibold px-15 py-3 rounded-md w-[60%] md:w-[30%]'>Konsultasi Sekarang</button>}
                 </div>
             </div>
