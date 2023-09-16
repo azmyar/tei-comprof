@@ -183,9 +183,9 @@ const Home = () => {
                     {lang? <p className='text-left text-7xl font-semibold'>Ignited by Passion, Crafted with Ingenuity</p>:
                     <p className='text-left text-7xl font-semibold'>Dipicu oleh Semangat, Dibentuk oleh Kreativitas</p>}
                     <br></br>
-                    {lang? <button onClick={() => window.location = "/tei-comprof/contact"} 
+                    {lang? <button onClick={() => window.location = "contact"} 
                     className='button text-center text-md font-semibold px-15 py-3 rounded-md w-[60%] md:w-[30%]'>Request a Consultation</button>:
-                    <button onClick={() => window.location = "/tei-comprof/contact"} 
+                    <button onClick={() => window.location = "contact"} 
                     className='button text-center text-md font-semibold px-15 py-3 rounded-md w-[60%] md:w-[30%]'>Konsultasi Sekarang</button>}
                 </div>
             </div>

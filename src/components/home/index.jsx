@@ -197,9 +197,9 @@ const Home = () => {
                     {lang? <p className='text-center text-md md:text-2xl'>Mechanical, Electrical, and Construction Engineering Company</p>:
                     <p className='text-center text-md md:text-2xl'>Perusahaan Teknik Mekanikal, Elektrikal, dan Konstruksi</p>}
                     <br></br>
-                    {lang? <button onClick={() => window.location = "/tei-comprof/contact"} 
+                    {lang? <button onClick={() => window.location = "contact"} 
                     className='button text-center text-md font-semibold px-10 py-3 rounded-md'>Request a Consultation</button>:
-                    <button onClick={() => window.location = "/tei-comprof/contact"} 
+                    <button onClick={() => window.location = "contact"} 
                     className='button text-center text-md font-semibold px-10 py-3 rounded-md'>Konsultasi Sekarang</button>}
                 </div>}
 
@@ -211,9 +211,9 @@ const Home = () => {
                     {lang? <p className='text-center text-md md:text-2xl'>with Mechanical, Electrical, and Construction Expertise</p>:
                     <p className='text-center text-md md:text-2xl'>dengan Ahli Mekanikal, Elektrikal, dan Konstruksi</p>}
                     <br></br>
-                    {lang? <button onClick={() => window.location = "/tei-comprof/contact"} 
+                    {lang? <button onClick={() => window.location = "contact"} 
                     className='button text-center text-md font-semibold px-10 py-3 rounded-md'>Request a Consultation</button>:
-                    <button onClick={() => window.location = "/tei-comprof/contact"} 
+                    <button onClick={() => window.location = "contact"} 
                     className='button text-center text-md font-semibold px-10 py-3 rounded-md'>Konsultasi Sekarang</button>}
                 </div>}
                 
@@ -224,9 +224,9 @@ const Home = () => {
                     <p className='text-center text-6xl md:text-8xl font-semibold'>Mengutamakan Kualitas</p>}
                     <br></br>
                     <br></br>
-                    {lang? <button onClick={() => window.location = "/tei-comprof/contact"} 
+                    {lang? <button onClick={() => window.location = "contact"} 
                     className='button text-center text-md font-semibold px-10 py-3 rounded-md'>Get In Touch</button>:
-                    <button onClick={() => window.location = "/tei-comprof/contact"} 
+                    <button onClick={() => window.location = "contact"} 
                     className='button text-center text-md font-semibold px-10 py-3 rounded-md'>Hubungi Kami</button>}
                 </div>}
 
